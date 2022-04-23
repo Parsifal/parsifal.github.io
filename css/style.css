@@ -1,12 +1,22 @@
-html {
-  height: 100%;
+* {
+  transition: 0.4s;
 }
 body {
+  font-family: Roboto Mono, monospace;
+}
+::selection {
+  background: #8000ff;
+  color: white;
+}
+.wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
   background: linear-gradient(-45deg, #000000, #200040);
   background-size: 400% 400%;
   animation: gradient 8s ease infinite;
-  font-family: Roboto Mono, monospace;
-  height: 100%;
 }
 @keyframes gradient {
   0% {
@@ -19,21 +29,11 @@ body {
     background-position: 0 50%;
   }
 }
-::selection {
-  background: #8000ff;
-  color: white;
-}
-.wrapper {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: center;
-}
 .info {
   align-items: center;
   display: flex;
   flex-direction: column;
+  font-size: calc(10px + 2vmin);
   justify-content: center;
   margin: 32px;
 }
@@ -41,10 +41,8 @@ body {
   border-radius: 50%;
   border: 4px solid #8000ff;
   box-shadow: 0 0 16px #8000ff;
-  display: block;
-  margin: 8px;
-  transition: 0.4s;
-  width: 240px;
+  max-height: 32vmin;
+  min-height: 240px;
 }
 .photo:hover {
   box-shadow: 0 0 128px #8000ff;
@@ -66,12 +64,10 @@ body {
 }
 .email {
   color: white;
-  font-size: 32px;
   font-weight: 400;
   margin: 16px;
   text-align: center;
   text-decoration: none;
-  transition: 0.4s;
 }
 .email:hover {
   transform: scale(1.2);
@@ -88,16 +84,10 @@ body {
   margin: 32px;
   max-width: 256px;
   min-width: 128px;
-  transition: 0.4s;
 }
 .link img {
   width: 100%;
 }
 .link:hover {
   transform: scale(1.2);
-}
-@media (max-width: 768px) {
-  .wrapper {
-    height: auto;
-  }
 }
