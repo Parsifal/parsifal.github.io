@@ -1,4 +1,5 @@
 * {
+  font-weight: 400;
   transition: 0.4s;
 }
 body {
@@ -33,33 +34,33 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  font-size: calc(8px + 2vmin);
+  font-size: calc(8px + 1vmin);
   justify-content: center;
   margin: 32px;
 }
 .photo {
   border-radius: 50%;
-  border: 4px solid #8000ff;
-  box-shadow: 0 0 16px #8000ff;
-  max-height: 32vmin;
-  min-height: 240px;
+  border: 2px solid #8000ff;
+  box-shadow: 0 0 8px #8000ff;
+  height: 16vmin;
+  margin: 8px;
+  min-height: 128px;
 }
 .photo:hover {
-  box-shadow: 0 0 128px #8000ff;
+  box-shadow: 0 0 64px #8000ff;
 }
 .title {
-  margin: 16px;
+  margin: 8px;
 }
 .name {
   color: white;
-  font-weight: 400;
-  margin: 8px;
+  font-weight: 500;
+  margin: 4px;
   text-align: center;
 }
 .description {
   color: darkgray;
-  font-weight: 300;
-  margin: 4px;
+  margin: 2px;
   text-align: center;
 }
 .links {
@@ -67,18 +68,19 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  margin: 16px;
+  justify-content: space-evenly;
+  margin: 8px;
+  width: 100%;
 }
 .link {
   color: white;
-  margin: 32px;
+  margin: 8px 16px;
   text-align: center;
   text-decoration: none;
 }
 .link img {
-  width: 256px;
+  width: 128px;
 }
 .link:hover {
-  transform: scale(1.1);
+  transform: scale(116%);
 }
