@@ -1,53 +1,35 @@
 * {
+  --main-color: #8000ff;
   font-weight: 400;
-  transition: 0.4s;
 }
 body {
   font-family: Roboto Mono, monospace;
+  background: url("../img/background.jpg") center center/cover no-repeat;
 }
 ::selection {
-  background: #8000ff;
+  background: var(--main-color);
   color: white;
 }
 .wrapper {
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.75);
   display: flex;
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
-  background: linear-gradient(-45deg, #100020, #200040);
-  background-size: 400% 400%;
-  animation: gradient 8s ease infinite;
-}
-@keyframes gradient {
-  0% {
-    background-position: 0 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0 50%;
-  }
 }
 .info {
   align-items: center;
   display: flex;
   flex-direction: column;
-  font-size: calc(8px + 1vmin);
+  font-size: calc(16px + 1vmin);
   justify-content: center;
   margin: 32px;
 }
 .photo {
-  border-radius: 50%;
-  border: 2px solid #8000ff;
-  box-shadow: 0 0 8px #8000ff;
   height: 16vmin;
   margin: 8px;
   min-height: 128px;
-}
-.photo:hover {
-  box-shadow: 0 0 64px #8000ff;
 }
 .title {
   margin: 8px;
@@ -63,6 +45,12 @@ body {
   margin: 2px;
   text-align: center;
 }
+.line {
+  color: white;
+  background-color: white;
+  height: 1px;
+  width: 100%;
+}
 .links {
   align-items: center;
   display: flex;
@@ -77,9 +65,10 @@ body {
   margin: 8px 16px;
   text-align: center;
   text-decoration: none;
+  transition: 0.4s;
 }
 .link img {
-  width: 128px;
+  width: calc(64px + 8vmin);
 }
 .link:hover {
   transform: scale(116%);
