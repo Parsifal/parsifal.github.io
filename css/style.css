@@ -3,8 +3,9 @@
   font-weight: 400;
 }
 body {
-  font-family: Roboto Mono, monospace;
+  backdrop-filter: blur(8px);
   background: url("../img/background.jpg") center center/cover no-repeat;
+  font-family: Roboto Mono, monospace;
 }
 ::selection {
   background: var(--main-color);
