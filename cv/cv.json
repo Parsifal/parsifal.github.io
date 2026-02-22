@@ -1,85 +1,51 @@
 {
   "selectedTemplate": 1,
-  "headings": { "education": "Education", "work": "Experience", "skills": "Skills", "projects": "Projects", "awards": "Awards" },
-  "basics": { "website": "https://github.com/Parsifal", "name": "Andrey «Parsifal» Kuranov", "location": { "address": "Bali, Indonesia" }, "phone": "https://t.me/parsifal_dev", "email": "main@parsifal.dev" },
+  "headings": { "education": "Education", "work": "Experience", "skills": "Skills", "projects": "Projects" },
+  "basics": { "website": "www.linkedin.com/in/parsifal-dev", "name": "Andrey «Parsifal» Kuranov", "location": { "address": "Bali, Indonesia" }, "phone": "https://t.me/parsifal_dev", "email": "hi@parsifal.dev" },
   "education": [{ "endDate": "June 2023", "institution": "Pskov State University", "location": "Pskov, Russia", "startDate": "August 2019", "area": "Information Systems and Technologies", "studyType": "Bachelor of Science", "gpa": "4/5" }],
   "work": [
-    { "highlights": [null], "company": "01.tech", "position": "Node.js Backend Developer", "location": "Remote", "startDate": "September 2022", "endDate": "Present" },
+    { "highlights": [null], "company": "01.tech", "position": "Node.js Backend Developer", "location": "Remote", "startDate": "September 2022", "endDate": "February 2026" },
     { "highlights": [null], "company": "Dom.rf", "position": "JavaScript Fullstack Developer", "location": "Moscow, Russia", "startDate": "September 2022", "endDate": "September 2023" },
-    { "highlights": [null], "company": "Kotelov", "position": "JavaScript Fullstack Developer", "location": "Saint Petersburg, Russia", "startDate": "August 2021", "endDate": "September 2022" },
+    { "highlights": [null], "company": "Kotelov", "position": "Node.js Backend Developer", "location": "Saint Petersburg, Russia", "startDate": "August 2021", "endDate": "September 2022" },
     { "highlights": [null], "company": "Ice Steam Rus", "location": "Pskov, Russia", "position": "Node.js Backend Developer", "startDate": "June 2020", "endDate": "July 2021" },
     { "highlights": [null], "company": "Civilization VI Hub (pet project)", "location": "Pskov, Russia", "position": "Node.js Backend Developer", "startDate": "January 2019", "endDate": "August 2021" }
   ],
   "skills": [
     { "level": "Middle+/Senior", "keywords": ["JavaScript", "TypeScript"], "name": "Programming Languages" },
-    { "keywords": ["Docker", "DynamoDB", "Express", "Grafana", "GraphQL", "Jest", "Kubernetes", "MariaDB", "Microservices", "MongoDB", "NestJS", "Node.js", "PostgreSQL", "Redis"], "name": "Backend Technologies" },
-    { "keywords": ["CSS", "HTML", "JQuery", "React", "Redux", "Webpack"], "name": "Frontend Technologies" },
-    { "keywords": ["Communication", "Problem-solving", "Adaptability"], "name": "Soft:" }
+    { "keywords": ["Docker", "DynamoDB", "Express", "Grafana", "GraphQL", "Jest", "Kubernetes", "MariaDB", "Microservices", "MongoDB", "NestJS", "Node.js", "PostgreSQL", "Redis", "Elasticsearch", "Kibana"], "name": "Backend Technologies" },
+    { "keywords": ["CSS", "HTML", "JQuery", "React", "Vue.js"], "name": "Frontend Technologies" },
+    { "keywords": ["Communication", "Problem-solving", "Adaptability", "Lead"], "name": "Soft" }
   ],
   "projects": [
-    { "keywords": ["DynamoDB", "Grafana", "Kubernetes", "MariaDB", "Microservices", "Node.js", "Redis", "TypeScript"], "name": "01.tech", "description": "NDA" },
+    {
+      "keywords": ["DynamoDB", "Grafana", "Kubernetes", "MariaDB", "Microservices", "Node.js", "Redis", "TypeScript", "Kibana", "Elasticsearch"],
+      "name": "01.tech",
+      "description": "In the SEO department, I was involved in the development of international high-load full-cycle software products in the field of gambling and betting. I worked in large enterprise teams and participated in the creation and scaling of high-load systems with high RPS. I had experience integrating with payment and gaming services, as well as developing core services for key projects. Main tasks: developing new functionality and supporting existing code; designing and optimizing the architecture of high-load systems; ensuring high fault tolerance and scalability of services; Integration with payment and gaming services; Conducting code reviews, refactoring, and improving code quality; Meeting KPIs for development and implementation of functionality; Development and maintenance of the server side of the application; Scaling the server infrastructure.",
+      "url": "01.tech"
+    },
     {
       "keywords": ["CSS", "Express", "HTML", "JavaScript", "JQuery", "Node.js", "PostgreSQL", "React", "Redux", "Webpack"],
-      "name": "In Dom.rf",
+      "name": "Dom.rf",
       "description": "The system is designed to automate the work of organizations that are developers, regulatory authorities and other participants in the construction of residential buildings with the involvement of citizens' funds within the requirements of Law 214-FZ and other regulatory acts of the Russian Federation.",
-      "url": "https://xn--80az8a.xn--d1aqf.xn--p1ai/"
-    },
-    {
-      "keywords": ["Docker", "JavaScript", "Jest", "NestJS", "Node.js", "PostgreSQL", "TypeScript"],
-      "name": "In Kotelov for Gazprombank",
-      "description": "Gazprombank Leasing web application for optimization of work.",
-      "url": "https://www.gazprombank.ru/"
-    },
-    {
-      "keywords": ["Docker", "GraphQL", "JavaScript", "NestJS", "Node.js", "PostgreSQL", "Redis", "TypeScript"],
-      "name": "In Kotelov for Proscom",
-      "description": "A web application for companies and individual employees engaged in the repair and maintenance of buildings.",
-      "url": "https://proscom.ru/"
+      "url": "http://www.domrf.ru/"
     },
     {
       "keywords": ["Docker", "JavaScript", "Jest", "NestJS", "Node.js", "PostgreSQL", "React", "Redux", "TypeScript"],
-      "name": "In Kotelov for Brusnika",
-      "description": "A web application for managing the resources of construction objects.",
-      "url": "https://brusnika.ru/"
-    },
-    {
-      "keywords": ["Docker", "JavaScript", "Jest", "NestJS", "Node.js", "PostgreSQL", "React", "Redux", "TypeScript"],
-      "name": "In Kotelov for Brusnika",
-      "description": "A web application for the implementation of human resources activities.",
-      "url": "https://brusnika.ru/"
-    },
-    {
-      "keywords": ["Docker", "JavaScript", "Jest", "NestJS", "Node.js", "PostgreSQL", "React", "Redux", "TypeScript"],
-      "name": "In Kotelov for Brusnika",
-      "description": "The web application of the employee's personal account, which combines and displays user data from various services, integrating with the internal system of microservices and external resources.",
-      "url": "https://brusnika.ru/"
+      "name": "Kotelov",
+      "description": "Throughout my career, I have participated in the following projects. In teams of 2/2 and 1/1 developers. Brusnika projects: Development of a personal account for company employees with integration of an internal microservices system and external resources; System for personnel management; Construction site resource management system; Proscom projects: Development of a web application for companies and specialists engaged in the repair and maintenance of facilities; Gazprombank Leasing projects: Development of a web application to optimize and automate the work of Gazprombank;",
+      "url": "brusnika.ru & proscom.ru & gpbl.ru"
     },
     {
       "keywords": ["AWS", "JavaScript", "MongoDB", "NestJS", "Node.js", "PostgreSQL", "TypeScript", "WebSockets"],
-      "name": "In Ice Steam Rus",
+      "name": "Ice Steam Rus",
       "description": "Development from scratch of a production automation system for freeze drying of food products. The task of the software was to manage and maintain the entire freeze drying process, as well as collect, store and analyze data. Article about the project: https://vc.ru/u/578384-dmitriy-hodas/220593-iz-stratosfery-v-kashu-na-zavtrak-sublimacionnaya-sushka-na-node-js",
       "url": "https://www.moglino.ru/about/residents/pao-sibirskiy-gostinets/"
     },
     {
       "description": "A chatbot for my non-profit community on the game Sid Meier's Civilization VI. It was originally written in pure JavaScript without frameworks using the MongoDB database. Later it was completely rewritten in TypeScript with the NestJS framework and the PostgreSQL database.",
       "keywords": ["JavaScript", "MongoDB", "NestJS", "Node.js", "PostgreSQL", "TypeScript"],
-      "name": "In Civilization VI Hub (pet project)"
+      "name": "Civilization VI Hub (pet project)"
     }
   ],
-  "awards": [
-    { "date": "December 2022", "awarder": "Kotelov", "title": "Habr", "summary": "Kotelov ranks 2nd among the best IT employers in Russia in 2022. Habr: https://habr.com/ru/article/711516/" },
-    {
-      "date": "December 2022",
-      "awarder": "Kotelov",
-      "title": "Wadline",
-      "summary": "Kotlov is among the Top 15 software developers in Russia by 2022. This is the main year of my activity in this company. Wadline: https://wadline.ru/mag/best-it-companies-russia-2022/"
-    },
-    {
-      "date": "February 2022",
-      "summary": "Kotelov ranks 2nd in the development of corporate solutions for construction in Russia. I've been involved in almost all of these projects. Runet rating: https://ratingruneta.ru/corporate/construction/",
-      "awarder": "Kotelov",
-      "title": "Runet Rating"
-    }
-  ],
-  "sections": ["templates", "profile", "education", "work", "skills", "projects", "awards"]
+  "sections": ["templates", "profile", "education", "work", "skills", "projects"]
 }
