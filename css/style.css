@@ -29,7 +29,7 @@ body {
 
 .photo {
   border-radius: 50%;
-  border: 2px solid white;
+  border: 2px solid black;
   height: 32vmin;
   margin: 8px;
   min-height: 128px;
