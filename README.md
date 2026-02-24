@@ -1,4 +1,4 @@
-# Personal web page
+# Personal Web Page
 
 Personal web pages are World Wide Web pages created by an individual to contain content of a personal nature rather than
 content pertaining to a company, organization or institution. Personal web pages are primarily used for informative or
