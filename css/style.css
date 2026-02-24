@@ -11,11 +11,10 @@ body {
 
 ::selection {
   background: var(--main-color);
-  color: white;
 }
 
 .background {
-  background: black;
+  background: white;
 }
 
 .wrapper {
@@ -40,7 +39,7 @@ body {
   margin: 8px;
   min-height: 128px;
   border-radius: 50%;
-  border: 2px solid white;
+  border: 2px solid black;
 }
 
 .title {
@@ -48,21 +47,20 @@ body {
 }
 
 .name {
-  color: white;
+  color: black;
   font-weight: 500;
   margin: 4px;
   text-align: center;
 }
 
 .description {
-  color: darkgray;
+  color: black;
   margin: 2px;
   text-align: center;
 }
 
 .line {
-  color: white;
-  background-color: white;
+  color: black;
   height: 1px;
   width: 100%;
 }
@@ -78,7 +76,7 @@ body {
 }
 
 .link {
-  color: white;
+  color: black;
   margin: 8px 32px;
   text-align: center;
   text-decoration: none;
