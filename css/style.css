@@ -1,12 +1,9 @@
 * {
   --main-color: #8000ff;
-  font-weight: 400;
 }
 
 body {
-  font-family:
-    Roboto Mono,
-    monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 ::selection {
@@ -15,27 +12,27 @@ body {
 }
 
 .wrapper {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   min-height: 100vh;
 }
 
 .info {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   font-size: calc(16px + 1vmin);
   margin: 32px;
 }
 
 .photo {
-  height: 32vmin;
-  min-height: 128px;
-  margin: 8px;
   border-radius: 50%;
   border: 2px solid white;
+  height: 32vmin;
+  margin: 8px;
+  min-height: 128px;
 }
 
 .title {
@@ -43,8 +40,8 @@ body {
 }
 
 .name {
-  margin: 4px;
   font-weight: 500;
+  margin: 4px;
   text-align: center;
 }
 
@@ -54,24 +51,23 @@ body {
 }
 
 .line {
-  width: 100%;
-  height: 1px;
   background-color: black;
+  height: 1px;
+  width: 100%;
 }
 
 .links {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  width: 100%;
   margin: 16px;
 }
 
 .link {
+  color: black;
   margin: 8px 32px;
   text-decoration: none;
   transition: transform 0.4s;
-  color: black;
 }
 
 .link img {
