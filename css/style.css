@@ -47,6 +47,7 @@ body {
 
 .line {
   background-color: black;
+  color: black;
   height: 1px;
   width: 100%;
 }
