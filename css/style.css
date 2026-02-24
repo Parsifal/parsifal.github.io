@@ -16,22 +16,10 @@ body {
 
 .background {
   background: black;
-  animation: gradientAnimation 4s ease forwards;
-}
-
-@keyframes gradientAnimation {
-  0% {
-    background: var(--main-color);
-  }
-  100% {
-    background: black;
-  }
 }
 
 .wrapper {
   align-items: center;
-  backdrop-filter: blur(8px);
-  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
   justify-content: center;
