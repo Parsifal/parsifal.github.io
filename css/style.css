@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Fira Code", monospace;
 }
 
 ::selection {
@@ -29,7 +29,6 @@ body {
 
 .photo {
   border-radius: 50%;
-  border: 2px solid black;
   height: 32vmin;
   margin: 8px;
   min-height: 128px;
@@ -40,7 +39,7 @@ body {
 }
 
 .name {
-  font-weight: 500;
+  font-weight: 400;
   margin: 4px;
   text-align: center;
 }
@@ -64,11 +63,6 @@ body {
   margin: 8px 32px;
   text-decoration: none;
   transition: transform 0.4s;
-}
-
-.link img {
-  height: calc(16px + 4vmin);
-  width: calc(64px + 8vmin);
 }
 
 .link:hover {
