@@ -11,7 +11,7 @@ body {
   color: white;
 }
 
-.wrapper {
+.main {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -32,10 +32,6 @@ body {
   height: 32vmin;
   margin: 8px;
   min-height: 128px;
-}
-
-.title {
-  margin: 8px;
 }
 
 .name {
