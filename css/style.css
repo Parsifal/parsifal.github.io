@@ -1,97 +1,66 @@
-/* Reset */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+* {
+  --main-color: #8000ff;
 }
 
-/* Custom properties */
-:root {
-  --color-primary: #8000ff;
-  --color-text: #111;
-  --color-bg: #fff;
-  --font-family: "Fira Code", monospace;
-}
-
-/* Base */
 body {
-  font-family: var(--font-family);
-  color: var(--color-text);
-  background-color: var(--color-bg);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Fira Code", monospace;
 }
 
 ::selection {
-  background: var(--color-primary);
-  color: var(--color-bg);
+  background: var(--main-color);
+  color: white;
 }
 
-/* Layout */
 .main {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  min-height: 100dvh;
+  min-height: 100vh;
 }
 
 .info {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  font-size: clamp(1rem, 0.9rem + 0.5vw, 1.25rem);
-  margin: 2rem;
+  font-size: calc(16px + 1vmin);
+  margin: 32px;
 }
 
-/* Photo */
 .photo {
   border-radius: 50%;
   height: 32vmin;
+  margin: 8px;
   min-height: 128px;
-  width: auto;
-  margin: 0.5rem;
 }
 
-/* Name */
 .name {
   font-weight: 400;
-  margin: 0.25rem;
+  margin: 4px;
   text-align: center;
 }
 
-/* Divider */
 .line {
-  border: none;
+  background-color: black;
+  border-style: none;
   height: 2px;
   width: 100%;
-  background-color: currentColor;
 }
 
-/* Navigation */
 .links {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  gap: 0.5rem;
-  margin: 1rem;
+  margin: 16px;
 }
 
 .link {
-  color: inherit;
-  padding: 0.25rem 0.5rem;
+  color: black;
+  margin: 8px 32px;
   text-decoration: none;
-  transition: transform 0.3s ease;
+  transition: transform 0.4s;
 }
 
 .link:hover {
   transform: scale(1.16);
-}
-
-.link:focus-visible {
-  outline: 2px solid var(--color-primary);
-  outline-offset: 4px;
-  border-radius: 2px;
 }
