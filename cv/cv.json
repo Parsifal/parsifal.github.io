@@ -4,11 +4,11 @@
   "basics": { "website": "www.linkedin.com/in/parsifal-dev", "name": "Andrey «Parsifal» Kuranov", "location": { "address": "Bali, Indonesia" }, "phone": "https://t.me/parsifal_dev", "email": "hi@parsifal.dev" },
   "education": [{ "endDate": "June 2023", "institution": "Pskov State University", "location": "Pskov, Russia", "startDate": "August 2019", "area": "Information Systems and Technologies", "studyType": "Bachelor of Science", "gpa": "4/5" }],
   "work": [
-    { "highlights": [null], "company": "01.tech", "position": "Node.js Backend Developer", "location": "Remote", "startDate": "September 2022", "endDate": "February 2026" },
-    { "highlights": [null], "company": "Dom.rf", "position": "JavaScript Fullstack Developer", "location": "Moscow, Russia", "startDate": "September 2022", "endDate": "September 2023" },
-    { "highlights": [null], "company": "Kotelov", "position": "Node.js Backend Developer", "location": "Saint Petersburg, Russia", "startDate": "August 2021", "endDate": "September 2022" },
-    { "highlights": [null], "company": "Ice Steam Rus", "location": "Pskov, Russia", "position": "Node.js Backend Developer", "startDate": "June 2020", "endDate": "July 2021" },
-    { "highlights": [null], "company": "Civilization VI Hub (pet project)", "location": "Pskov, Russia", "position": "Node.js Backend Developer", "startDate": "January 2019", "endDate": "August 2021" }
+    { "highlights": [], "company": "01.tech", "position": "Node.js Backend Developer", "location": "Remote", "startDate": "September 2022", "endDate": "February 2026" },
+    { "highlights": [], "company": "Dom.rf", "position": "JavaScript Fullstack Developer", "location": "Moscow, Russia", "startDate": "September 2022", "endDate": "September 2023" },
+    { "highlights": [], "company": "Kotelov", "position": "Node.js Backend Developer", "location": "Saint Petersburg, Russia", "startDate": "August 2021", "endDate": "September 2022" },
+    { "highlights": [], "company": "Ice Steam Rus", "location": "Pskov, Russia", "position": "Node.js Backend Developer", "startDate": "June 2020", "endDate": "July 2021" },
+    { "highlights": [], "company": "Civilization VI Hub (pet project)", "location": "Pskov, Russia", "position": "Node.js Backend Developer", "startDate": "January 2019", "endDate": "August 2021" }
   ],
   "skills": [
     { "level": "Middle+/Senior", "keywords": ["JavaScript", "TypeScript"], "name": "Programming Languages" },
